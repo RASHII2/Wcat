@@ -1,0 +1,5 @@
+We recommend reading this tutorial, in the sequence listed in the menu.
+
+If you have a large screen, the menu will always be present on the left.
+
+If you have a small screen, open the menu by clicking the top menu sign

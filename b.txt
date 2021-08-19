@@ -1,0 +1,9 @@
+In this tutorial, the learning speed is your choice.
+
+Everything is up to you.
+
+If you are struggling, take a break, or re-read the material.
+
+Always make sure you understand all the "Try-it-Yourself" examples.
+
+The only way to become a clever programmer is to: Practice. Practice. Practice. Code. Code. Code !
