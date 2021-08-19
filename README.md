@@ -1,6 +1,6 @@
 # Wcat
 Wcat is a clone of "cat" command of linux.
-
+\n
 Following features of wcat :- 
 -rs :- remove spaces
 -rn :- remove new line
