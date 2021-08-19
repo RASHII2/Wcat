@@ -1,5 +1,5 @@
 # Wcat
-Wcat is a clone of "cat" command of linux.
+Wcat is a clone of "cat" command of linux.<br />
 <br />
 Following features of wcat :- <br />
 -rs :- remove spaces<br />
