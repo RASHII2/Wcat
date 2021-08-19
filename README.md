@@ -1,14 +1,14 @@
 # Wcat
 Wcat is a clone of "cat" command of linux.
 <br />
-Following features of wcat :- 
--rs :- remove spaces
--rn :- remove new line
--rsc :- remove all specific characters
--s :- write count on every new ine
--sn :- put sequence number to every non-emty lines
--rel - remove extra line
--ral :- remove all lines
--app :- all content of all files to the first file
--cr :- create empty file - specify name
--exc :- replace content of file 2 with file 1.
+Following features of wcat :- <br />
+-rs :- remove spaces<br />
+-rn :- remove new line<br />
+-rsc :- remove all specific characters<br />
+-s :- write count on every new ine<br />
+-sn :- put sequence number to every non-emty lines<br />
+-rel - remove extra line<br />
+-ral :- remove all lines<br />
+-app :- all content of all files to the first file<br />
+-cr :- create empty file - specify name<br />
+-exc :- replace content of file 2 with file 1.<br />
