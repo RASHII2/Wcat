@@ -14,3 +14,4 @@ Commands :-
 -app :- all content of all files to the first file
 -cr :- create empty file - specify name
 -exc :- replace content of file 2 with file 1.
+-dl :- delete a file
