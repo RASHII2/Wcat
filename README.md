@@ -12,3 +12,4 @@ Following are features of wcat :- <br />
 -app :- all content of all specified files is copied to the first specified file<br />
 -cr :- create empty file iffile do not exist<br />
 -exc :- replace content of file 2 with file 1.<br />
+-dl :- delete a file
