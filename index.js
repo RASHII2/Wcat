@@ -4,6 +4,7 @@
 const fs = require("fs");//importing fs
 let arguments = process.argv.slice(2);
 
+
 let flags = [];
 let filenames = [];
 let secondaryArguments = [];
@@ -25,13 +26,17 @@ for(let file of filenames){
     let fileData = "";
     for(let fl of flags){
         if(fl == "-cr"){
-            fs.open(file, 'w', function (err, filee) {
-                if (err) throw err;
-                console.log("file created!");
-              });
+            create(file);
             break;  
         }
+        if(fl == '-dl'){
+            del(file);
+            break;
+        }
         fileData = fs.readFileSync(file,"utf-8");
+        if(fl == "-r"){
+            fileData = fs.readFileSync(file,"ascii");
+        }
         if(fl == "-rs"){
             fileData = fileData.split(" ").join("");
         }
@@ -116,4 +121,26 @@ function removeAllLine(data){
         }
     }
     return end;
+}
+
+function create(file){
+    if(fs.existsSync(file)){
+        console.log(file + " already exist.")
+        return;
+    }
+    fs.open(file, 'w', function (err, filee) {
+        if (err) throw err;
+        console.log("file created!");
+      });
+
+}
+function del(file) {
+    if(!fs.existsSync(file)){
+        console.log(file + " does not exist.")
+        return;
+    }
+    fs.unlinkSync(file);
+    if(!fs.existsSync(file)){
+        console.log("File deleted!")
+    }
 }
